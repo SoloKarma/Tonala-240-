@@ -20,7 +20,7 @@ reader.pages.each_with_index do |page, i|
     if (line.size.between?(5, 6)) \
         and (line.last != 'RATE') \
         and (line.first != 'PAYPLAN') \
-        and (line.first != 'DEBT') \
+        and (line.first != 'DEPT') \
         and (line.last != 'CURRENT')
       # remove empty fields (only happens on newer PDFs where first field is empty)
       data.reject! &:empty?
