@@ -20,3 +20,9 @@ from uff-uf.org/salaries using `wget`, the command for which is in
 ```sh
 ruby scrape-to-pdf.rb input.pdf > output.csv
 ```
+
+## TODO
+
+- College/Department info is lost.
+- Some names are missing.
+- Occasionally, totals by college/department are retained.
